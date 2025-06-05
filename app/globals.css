@@ -21,6 +21,17 @@
 
 body {
   background: var(--background);
+  /* background: #ccc; */
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+
+.tt{
+  background: linear-gradient(to right, #fff, #000);
 }
