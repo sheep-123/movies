@@ -119,7 +119,7 @@ export default function Home() {
     if (!isDragging || !scrollContainerRef.current) return;
     e.preventDefault();
     const x = e.pageX - scrollContainerRef.current.offsetLeft;
-    const walk = x - startX;
+    const walk = (x - startX) / 2;
     setScrollLeft(lastScrollLeft.current + walk);
   };
 
